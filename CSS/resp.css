@@ -1,0 +1,16 @@
+@media only screen and (max-width: 800px) {
+  .container {
+    max-width: 80%;
+  }
+  #send-container {
+    max-width: 533px;
+  }
+
+  #messageInp {
+    width: 51%;
+  }
+
+  .btn {
+    width: 18%;
+  }
+}

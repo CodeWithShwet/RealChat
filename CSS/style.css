@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&family=DM+Serif+Display:ital@1&family=DM+Serif+Text&family=Merriweather&family=Satisfy&display=swap");
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(#b896ff, #f39bb8);
+  overflow-y: hidden;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  border-radius: 6px;
+  border: 2px solid rgb(134, 124, 124);
+  height: 60vh;
+  margin: auto;
+  max-width: 55%;
+  overflow-y: auto;
+  background-color: white;
+}
+
+.logo {
+  font-family: "DM Serif Text", serif;
+  margin-top: 45px;
+  text-align: center;
+  font-size: 35px;
+}
+
+.message {
+  padding: 10px;
+  background-color: rgb(250, 166, 180);
+  margin: 18px 4px;
+  border: 2px solid blueviolet;
+  width: 40%;
+  border-radius: 9px;
+}
+.right {
+  float: right;
+  clear: both;
+}
+
+.left {
+  float: left;
+  clear: both;
+}
+
+#send-container {
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  max-width: 55vw;
+  display: block;
+}
+
+#messageInp {
+  padding: 2px 7px;
+  font-size: 15px;
+  margin: 3px;
+  border-radius: 8px;
+  border: 2px solid grey;
+  height: 32px;
+  width: 80%;
+  font-family: "Merriweather", serif;
+  outline: none;
+}
+#messageInp:hover {
+  border: 2px solid rgb(226, 70, 43);
+}
+
+.btn {
+  width: 10%;
+  font-family: "DM Serif Text", serif;
+  font-weight: bold;
+  border-radius: 6px;
+  height: 27px;
+  cursor: pointer;
+  padding: 0px 10px;
+  border: 0;
+  background-color: #ff1212;
+  color: white;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+}
